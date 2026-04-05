@@ -5,56 +5,64 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Awel Abdujelil</title>
   </head>
-  <body style="background: #f3f4f4">
+  <body
+    style="
+      background: #f3f4f4;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      font-family: Arial, sans-serif;
+      gap: 6px;
+    "
+  >
     <nav id="home">
       <ul type="none" style="display: flex; gap: 20px; justify-content: right">
         <li><a href="#contact">contact</a></li>
         <li><a href="#skills">skills</a></li>
       </ul>
     </nav>
-    <h1 style="text-align: center">Awel Abduljelil's</h1>
-    <section>
-      <h2>About Me</h2>
-      <p>
-        I am a <b>software engineering</b> student at
-        <abbr title="Adama Science And Technology">ASTU</abbr>
-        and interested in problem solving not just writing a code with a keen
-        interest in innovative solutions, My aim is to contribute to impactful
-        projects in technology. and I am passionate about learning new
-        technologies and staying updated with industry trends. I am a dedicated
-        and motivated individual who is eager to apply my skills and knowledge
-        to real-world challenges. I am excited about the opportunities that lie
-        ahead and look forward to making a positive impact in the field of
-        software engineering.
-      </p>
-      <img
-        src="image2.jpg"
-        alt="image of Awel Abduljelil"
-        width="300"
-        height="300"
-        style="border-radius: 50%; object-fit: cover"
-      />
-    </section>
-    <section id="skills">
-      <ul>
-        <h2>Skills:</h2>
-        <li>Python</li>
-        <li>C++</li>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
-      </ul>
+    <h1>Hi, I'm Awel <br>Abduljelil</h1>
+    <hr style="border: 2px solid #2a42f2; border-radius: 5px" width="90%" />
+    <h2>About Me</h2>
 
-      <ul type="square">
-        <h2>Hobbies:</h2>
-        <li>Reading books</li>
-        <li>Playing football</li>
-        <li>ethical hacking /pentester</li>
-        <h2>Interests:</h2>
-        <li>Problem Solving</li>
-        <li>Innovative Solutions</li>
-      </ul>
-      <ol type="I">
+    <p style="text-align: center; color: #333">
+      I am a <b>software engineering</b> student at
+      <abbr title="Adama Science And Technology University">ASTU</abbr>
+      and interested in problem solving not just writing a code with a keen
+      interest in innovative solutions, My aim is to contribute to impactful
+      projects in technology. and I am passionate about learning new
+      technologies and staying updated  trends.  <a href="#bottom">contact me here</a>
+ 
+    </p>
+
+    <img
+      src="image2.jpg"
+      alt="image of Awel Abduljelil"
+      width="300"
+      height="300"
+      style="border-radius: 50%; object-fit: cover"
+    />
+
+    <section id="skills">
+      <div style="display: flex; gap: 50px; flex-wrap: wrap">
+        <h2>Skills</h2>
+        <ul>
+          <li>Python</li>
+          <li>C++</li>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+        </ul>
+
+        <h2>Hobbies</h2>
+        <ul type="square">
+          <li>Reading books</li>
+          <li>Playing football</li>
+          <li>ethical hacking /pentester</li>
+        </ul>
+      </div>
+
+      <ol>
         <h2>courses:</h2>
         <li>Web Development</li>
         <li>Data structure and algorithms</li>
@@ -70,7 +78,7 @@
       style="
         border: 3px solid rgb(41, 41, 244);
         border-radius: 10px;
-        width: 100%;
+        max-width: fit-content;
         border-collapse: collapse;
       "
       border="1"
@@ -140,6 +148,11 @@
       </tbody>
     </table>
     <br />
+    <p>
+      if you want to know how to create a website like this, you can watch this
+      video:
+    </p>
+    <br />
     <iframe
       width="560"
       height="315"
@@ -158,14 +171,15 @@
       referrerpolicy="strict-origin-when-cross-origin"
       allowfullscreen
     ></iframe>
+    <br />
     <a href="https://www.w3schools.com" target="_blank">w3schools</a>
-    <br />
+
     <a href="https://t.me/Awexaa" target="_blank">telegram</a>
-    <br />
+
     <a href="https://www.github.com/awexa-web" target="_blank">github</a>
 
-    <br />
     <h3 id="contact">Contact Information</h3>
+
     <form action="POST" method="submit">
       <fieldset>
         <legend>Personal Information</legend>
@@ -213,7 +227,7 @@
               rgb(41, 41, 244),
               rgb(189, 200, 233)
             );
-            color:rgb(255, 255, 255);
+            color: rgb(255, 255, 255);
             border-radius: 10px;
             padding: 10px 20px;
             border: none;
@@ -234,7 +248,9 @@
         alt="go to top button image"
     /></a>
     <br />
-    <footer>
+    <hr style="border: 2px solid #2a42f2; border-radius: 5px" width="90%" />
+
+    <footer id="bottom">
       <a href="mailto:awela1499@gmail.com">Email Me</a>
       <p>&copy; 2026 My Website. All rights reserved.</p>
     </footer>
